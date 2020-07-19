@@ -8,7 +8,7 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
   </head>
   <body>
     <!---Шапка-->
@@ -259,7 +259,14 @@
       </div>
       <div class="dib">
         <b class="to-us">Подпишитесь на рассылку</b>
-        <button class="service" type="button">Подписаться</button> 
+        <form class="form-footer">
+          <input type="email" class="input-footer" name="mail" id="mail" placeholder="E-mail">
+          <button class="service-footer" type="button">Подписаться
+            <svg class="icon-footer">
+              <use href="./images/sam.svg#icon-icon-send"> </use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </div>
