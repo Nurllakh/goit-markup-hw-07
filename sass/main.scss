@@ -1,19 +1,17 @@
-@import "./utils/variables";
-@import "./projects";
-@import "./buttonPortfolio";
-@import "./clients";
-@import "./details";
-@import "./effective";
-@import "./footer";
-@import "./footerCont";
+@import "./sectionGlobal";
 @import "./header";
 @import "./headerContacts";
+@import "./effective";
+@import "./details";
+@import "./projects";
 @import "./job";
-@import "./logo";
-@import "./modalka";
-@import "./sectionGlobal";
 @import "./team";
-
+@import "./clients";
+@import "./buttonPortfolio";
+@import "./logo";
+@import "./footer";
+@import "./footerCont";
+@import "./modalka";
 html {
   box-sizing: border-box;
 }
