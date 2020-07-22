@@ -59,8 +59,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  height: 79px;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nove {
